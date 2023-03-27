@@ -4,7 +4,7 @@ import pickle
 
 dataset = pd.read_csv('https://raw.githubusercontent.com/HarikaReddyB/Flask_deployment/main/homeprices.csv')
 
-# Reordering the columns
+
 dataset = dataset[['area', 'bedrooms', 'age', 'price']]
 
 # Replacing missing values
